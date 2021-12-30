@@ -521,6 +521,7 @@ public abstract class SimpleEngine {
     protected abstract void init();
     protected abstract void onShutdown();
     protected abstract void update();
+
     protected abstract void render(IPencil pencil);
 
     private void run(){
